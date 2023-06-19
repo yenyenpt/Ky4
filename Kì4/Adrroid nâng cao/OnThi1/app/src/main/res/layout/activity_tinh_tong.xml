@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TinhTong"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/edThang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tháng"/>
+    <EditText
+        android:id="@+id/edTenSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên sp"/>
+    <Button
+        android:id="@+id/btnTinhTong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tính tổng"/>
+    <TextView
+        android:id="@+id/tvTong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tổng"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>

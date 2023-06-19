@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edMaLoaiSP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Ma loai SP" />
+
+            <EditText
+                android:id="@+id/edMaSP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Ma San pham" />
+            <EditText
+                android:id="@+id/edSoLuongNhap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="So luong nhap" />
+            <EditText
+                android:id="@+id/edSoLuongXuat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="So luong xuat" />
+            <EditText
+                android:id="@+id/edDonGiaNhap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Don gia nhap" />
+            <EditText
+                android:id="@+id/edDonGiaXuat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Don gia xuat" />
+            <EditText
+                android:id="@+id/edNgayNhap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Ngay nhap" />
+            <EditText
+                android:id="@+id/edNgayXuat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Ngay xuat" />
+
+            <Button
+                android:id="@+id/btnTao4Bang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tạo 4 bảng Thể Loại,Sản Phẩm, Hóa Đơn, Hóa Đơn chi tiết vào SQLite" />
+
+            <Button
+                android:id="@+id/btnNhapDuLieu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nhập dữ liệu vào các EditText và lưu vào các bảng dữ liệu tương ứng, mỗi bảng ít nhất 2 bản ghi" />
+
+            <Button
+                android:id="@+id/btnHienThiDuLieu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hiển thị dữ liệu bảng sản phẩm lên RecyclerView hoặc Lisview" />
+
+            <Button
+                android:id="@+id/btnTinhTong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tính tổng số bản ghi có trong Listview" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
